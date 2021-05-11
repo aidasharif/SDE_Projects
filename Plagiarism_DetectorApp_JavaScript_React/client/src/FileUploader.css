@@ -1,0 +1,56 @@
+/*
+CSS styling for the input file fields in FileUploader
+*/
+input[type='file'] {
+    color: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 40%;
+    margin: 0;
+    height: 100%;
+}
+
+input[type='file']::-webkit-file-upload-button {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    border-color: transparent;
+    outline: none !important;
+}
+
+/*
+CSS styling for the buttons used to upload files to the page
+*/
+.button-row .ant-form-item {
+    margin-bottom: 0%;
+    box-shadow: none;
+}
+
+.button-row .ant-form-item-control-input-content {
+    height: 100%;
+}
+
+/*
+CSS styling for card that displays file information to page
+*/
+.file-card {
+    height: 390px;
+}
+
+.file-card .ant-card-body {
+    height: 300px;
+    padding: 0;
+}
+
+/*
+CSS styling for the list of files in FileUploader
+*/
+.file-list {
+    overflow-y: scroll;
+    height: 330px;
+}
+
+.file-list .ant-list-item {
+    padding-left: 20px;
+}
+
